@@ -28,8 +28,11 @@
       android:layout_height="wrap_content"
       android:orientation="vertical">
 
-      <org.twodee.slidefx.Property
+      <org.twodee.slidefx.SliderBox
         label="Volume"
+        min="0.0"
+        max="1.0"
+        value="0.2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
     </LinearLayout>
